@@ -24,3 +24,8 @@ StickyFlagView is an unread message tag which can drag.<br><br>
 `sfv.setMinStickRadius(3);` <br>
 `sfv.setMaxStickRadius(8);` <br>
 `sfv.setMaxDistance(80);` <br>
+`sfv.setOnFlagDisappearListener(new StickyFlagView.OnFlagDisappearListener() {` <br>
+`　　@Override` <br>
+`　　public void onFlagDisappear(StickyFlagView view) {` <br>
+`　　}` <br>
+`});`
