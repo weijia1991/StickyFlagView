@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StickyFlagView">
+        <attr name="flagColor" format="color"/>
+        <attr name="flagTextColor" format="color"/>
+        <attr name="flagTextSize" format="dimension"/>
+        <attr name="flagRadius" format="dimension"/>
+        <attr name="flagDrawable" format="reference"/>
+        <attr name="maxStickRadius" format="dimension"/>
+        <attr name="minStickRadius" format="dimension"/>
+        <attr name="maxDistance" format="dimension" />
+    </declare-styleable>
+</resources>
